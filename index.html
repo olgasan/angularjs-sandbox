@@ -1,19 +1,42 @@
 <!DOCTYPE html>
-<html ng-app="myapp">
+<html>
 <head lang="en">
     <meta charset="UTF-8">
-    <link href="bower_components/bootstrap/dist">
     <script src="bower_components/angularjs/angular.min.js"></script>
     <script>
         var app = angular.module('myapp', []);
         app.controller("mainCntrl", function ($scope){ });
     </script>
     <script src="js/directive.js"></script>
+    <script src="js/seeMore.js"></script>
     <title></title>
+    <style>
+        .collapse-text-toggle {
+            font-size: 0.9em;
+            color: #666666;
+            cursor: pointer;
+        }
+        .collapse-text-toggle:hover {
+            color: #222222;
+        }
+        .collapse-text-toggle:before {
+            content: '\00a0(';
+        }
+        .collapse-text-toggle:after {
+            content: ')';
+        }
+    </style>
 </head>
-<body ng-controller="mainCntrl">
-<input type="text" ng-model="color" placeholder="Color" />
-<div hello-world></div>
-<p ver-mas>Este es mi contenido</p>
+<body ng-app="myapp">
+<div ng-controller="mainCntrl">
+    <input type="text" ng-model="color" placeholder="Color" />
+    <div hello-world></div>
+
+    <div data-ver-mas="100">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse commodo lectus tempor sem blandit, quis pulvinar nibh fringilla. Morbi id sapien eu elit dictum molestie et non diam. Ut consectetur erat ac nulla ultricies, a sagittis turpis rhoncus. Vestibulum in velit faucibus, commodo ante sed, porttitor nunc. Aenean ac eros ante. Ut lobortis tortor non convallis mattis. Proin laoreet gravida ipsum a auctor. Vivamus molestie blandit lectus, quis sodales turpis bibendum at. Suspendisse posuere eros id quam consectetur, id ullamcorper sem mattis. Sed fermentum leo in sagittis iaculis. Sed euismod urna in ullamcorper lacinia.</p>
+        <p>In scelerisque bibendum lectus vitae cursus. Donec fermentum dolor massa, eget mollis diam finibus vel. Praesent dignissim libero eu sapien consequat finibus. Integer eu est aliquet, pulvinar massa eu, lacinia nulla. Suspendisse feugiat aliquet metus scelerisque tempor. Sed a est purus. Maecenas viverra erat ut augue condimentum, tincidunt malesuada nulla convallis. Nullam cursus dolor in risus mattis consectetur. Sed at aliquam est, non luctus dolor. Donec tincidunt, nunc quis consectetur ultricies, justo libero porttitor elit, nec vulputate elit libero eget diam.</p>
+        <p>Sed ultrices diam eu risus scelerisque, vel volutpat leo eleifend. Donec eu congue neque, eget rhoncus risus. Nullam at aliquet tortor. Aenean sagittis cursus fermentum. Maecenas commodo laoreet venenatis. Aliquam erat volutpat. Morbi nunc justo, pharetra dapibus vestibulum et, iaculis nec felis. In non accumsan elit.</p>
+    </div>
+</div>
 </body>
 </html>
