@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dabb7219-ce94-4ffd-8526-59f133196eec" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/seeMore.js" afterPath="$PROJECT_DIR$/js/seeMore.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/src/utils.js" afterPath="$PROJECT_DIR$/js/src/utils.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/tests/utils.test.js" afterPath="$PROJECT_DIR$/js/tests/utils.test.js" />
     </list>
@@ -36,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seeMore.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="seeMore.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/seeMore.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="882">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.6385135" vertical-offset="147" max-vertical-offset="777">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -50,17 +51,17 @@
         <entry file="file://$PROJECT_DIR$/js/src/utils.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="441">
-              <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utils.test.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="utils.test.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/tests/utils.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7449324" vertical-offset="0" max-vertical-offset="609">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="609">
+              <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -89,9 +90,9 @@
         <option value="$PROJECT_DIR$/js/directive.js" />
         <option value="$PROJECT_DIR$/js/showMore.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/seeMore.js" />
-        <option value="$PROJECT_DIR$/js/src/utils.js" />
         <option value="$PROJECT_DIR$/js/tests/utils.test.js" />
+        <option value="$PROJECT_DIR$/js/src/utils.js" />
+        <option value="$PROJECT_DIR$/js/seeMore.js" />
       </list>
     </option>
   </component>
@@ -565,10 +566,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/seeMore.js">
+    <entry file="file://$PROJECT_DIR$/js/tests/utils.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="882">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="609">
+          <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -576,15 +577,15 @@
     <entry file="file://$PROJECT_DIR$/js/src/utils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="441">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/tests/utils.test.js">
+    <entry file="file://$PROJECT_DIR$/js/seeMore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7449324" vertical-offset="0" max-vertical-offset="609">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6385135" vertical-offset="147" max-vertical-offset="777">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>

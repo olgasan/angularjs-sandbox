@@ -3,10 +3,10 @@ var utils = {
         longitudResumen: 4,
         original: '',
 
-        cortarHasta: function (){
+        primeraParte: function (){
             return String(this.original).substring(0, this.longitudResumen);
         },
-        cortarDesde: function (){
+        segundaParte: function (){
             return String(this.original).substring(this.longitudResumen, this.original.length);
         },
         debeMostrarVerMas: function () {
