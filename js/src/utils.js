@@ -1,10 +1,16 @@
 var utils = {
-    verMasUtils : {
-        cortarHasta: function (original, longitud){
-            return String(original).substring(0, longitud);
+    verMas : {
+        longitudResumen: 4,
+        original: '',
+
+        cortarHasta: function (){
+            return String(this.original).substring(0, this.longitudResumen);
         },
-        cortarDesde: function (original, posicion){
-            return String(original).substring(posicion, original.length);
+        cortarDesde: function (){
+            return String(this.original).substring(this.longitudResumen, this.original.length);
+        },
+        debeMostrarVerMas: function () {
+            return this.original.length > this.longitudResumen;
         }
     }
 }
