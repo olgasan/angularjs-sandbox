@@ -1,4 +1,4 @@
-describe("Utilidades para VerMas", function (){
+describe("Utilidades para 'Ver mas'", function (){
     var util = utils.verMas;
 
     beforeEach(function () {
@@ -6,14 +6,14 @@ describe("Utilidades para VerMas", function (){
         util.longitudResumen = 4;
     });
 
-    it("cortar primera parte", function () {
+    it("cortar primera parte del texto", function () {
         expect (util.primeraParte).toBeDefined();
         expect (util.primeraParte()).toBe("1234");
     });
 
-    it ("sabe si debe añadir ver mas", function () {
+    it ("agrega ver mas cuando es texto largo", function () {
         expect (util.debeMostrarVerMas).toBeDefined();
-        util.texto = "12";
+        util.texto = "99";
         expect (util.debeMostrarVerMas()).toBe(false);
     });
 });
