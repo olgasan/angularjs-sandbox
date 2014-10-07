@@ -15,16 +15,16 @@ app.directive('verMas', ['$compile', function($compile) {
                 util.longitudResumen = longitud;
 
                 if (util.debeMostrarVerMas()) {
-                    var firstSpan = $compile('<span>' + util.primeraParte() + '</span>')(scope);
-                    var secondSpan = $compile('<span ng-if="collapsed">' + util.segundaParte() + '</span>')(scope);
-                    var moreIndicatorSpan = $compile('<span ng-if="!collapsed">...</span>')(scope);
-                    var toggleButton = $compile('<span class="collapse-text-toggle" ng-click="toggle()">{{collapsed ? "less" : "more"}}</span>')(scope);
+                    var primeraParte = $compile('<span>' + util.primeraParte() + '</span>')(scope);
+                    var segundaParte = $compile('<span ng-if="collapsed">' + util.segundaParte() + '</span>')(scope);
+                    var indicadorMas = $compile('<span ng-if="!collapsed">...</span>')(scope);
+                    var botonMas = $compile('<span class="collapse-text-toggle" ng-click="toggle()">{{collapsed ? "Ver menos" : "Ver m&aacute;s"}}</span>')(scope);
 
                     element.empty();
-                    element.append(firstSpan);
-                    element.append(secondSpan);
-                    element.append(moreIndicatorSpan);
-                    element.append(toggleButton);
+                    element.append(primeraParte);
+                    element.append(segundaParte);
+                    element.append(indicadorMas);
+                    element.append(botonMas);
                 }
             });
         }
