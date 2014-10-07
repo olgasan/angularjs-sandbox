@@ -2,6 +2,7 @@ app.directive('verMas', ['$compile', function($compile) {
     return {
         restrict: 'A',
         replace: true,
+        scope: {},
         link: function(scope, element, attrs) {
             scope.collapsed = false;
 
