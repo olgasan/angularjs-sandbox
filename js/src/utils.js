@@ -1,16 +1,12 @@
 var utils = {
     verMas : {
         longitudResumen: 4,
-        original: '',
-
+        texto: '',
         primeraParte: function (){
-            return String(this.original).substring(0, this.longitudResumen);
-        },
-        segundaParte: function (){
-            return String(this.original).substring(this.longitudResumen, this.original.length);
+            return String(this.texto).substring(0, this.longitudResumen);
         },
         debeMostrarVerMas: function () {
-            return this.original.length > this.longitudResumen;
+            return this.texto.length > this.longitudResumen;
         }
     }
 }

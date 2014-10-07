@@ -2,7 +2,7 @@ describe("Utilidades para VerMas", function (){
     var util = utils.verMas;
 
     beforeEach(function () {
-        util.original = "1234567890";
+        util.texto = "1234567890";
         util.longitudResumen = 4;
     });
 
@@ -11,14 +11,9 @@ describe("Utilidades para VerMas", function (){
         expect (util.primeraParte()).toBe("1234");
     });
 
-    it("cortar segunda parte", function () {
-        expect (util.segundaParte).toBeDefined();
-        expect (util.segundaParte()).toBe("567890");
-    });
-
     it ("sabe si debe añadir ver mas", function () {
         expect (util.debeMostrarVerMas).toBeDefined();
-        util.original = "12";
+        util.texto = "12";
         expect (util.debeMostrarVerMas()).toBe(false);
     });
 });
